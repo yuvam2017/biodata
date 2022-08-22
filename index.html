@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ques3</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+		*{
+			margin:0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		.font-space {
+			font-family: 'Space Mono', monospace;
+		}
+
+		ul > li {
+			padding: 0.5rem;
+			font-weight: 500;
+			font-size: 1.2rem;
+			margin-bottom: 0.5rem;
+		}
+
+		.bold-ul > li {
+			font-weight: bolder;
+
+		}
+
+		.bold-ul-mid > li:hover {
+			background-color: white;
+			color: black;
+		}
+
+		ul > li:hover {
+			transition-duration: 400ms;
+			background-color: black;
+			color: white;
+		}
+
+	</style>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+	<div class="font-space w-full h-screen flex flex-col justify-center items-center ">
+		<p class="font-bold text-3xl mb-4 border-2 border-black shadow-xl p-2 pl-3 pr-3 font-space hover:bg-black hover:text-white duration-300 cursor-pointer ease-in-out">BioData</p>
+		<div class="w-full flex justify-center items-center">
+			<div class="left flex  justify-end items-center w-[45%]">
+				<ul class="bold-ul">
+				    <li>Name</li>
+				    <li>Age</li>
+				    <li>College</li>
+				    <li>Course</li>
+				    <li>Year</li>
+				    <li>Roll Number</li>
+				    <li>Semester</li>
+				    <li>Hobbies</li>
+		   		    <li>Address</li>
+				    <li>Plan</li>
+				</ul>
+			</div>
+			<div class="middle flex justify-center  items-center w-[10%]">
+				<ul class="bold-ul-mid">
+				    <li>:</li>
+				    <li>:</li>
+				    <li>:</li>
+				    <li>:</li>
+				    <li>:</li>
+				    <li>:</li>
+				    <li>:</li>
+				    <li>:</li>
+		   		    <li>:</li>
+				    <li>:</li>
+				</ul>
+			</div>
+
+			<div class="right flex justify-start items-center w-[45%]">
+				<ul>
+				    <li>D R YUVAM</li>
+				    <li>19</li>
+				    <li>ARYABHATTA COLLEGE UNIVERSITY OF DELHI</li>
+				    <li>B.Sc. Hons. Computer Science</li>
+				    <li>III</li>
+				    <li>CSC/20/48</li>
+				    <li>V</li>
+				    <li>Watching Movies</li>
+		   		    <li>Block L, Mahipalpur</li>
+				    <li>Watching More Movies</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
